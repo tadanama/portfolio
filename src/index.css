@@ -85,3 +85,52 @@ header.wrapper {
 		}
 	}
 }
+
+section#hero {
+	min-height: 80vh;
+	margin-top: 30px;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+
+	background-color: #f5f5f5;
+	border: 1px solid gray;
+	border-radius: 10px;
+
+	text-align: center;
+
+	.left,
+	.right {
+		width: 50%;
+		padding: 100px 20px;
+		/* border: 1px solid green; */
+	}
+
+	.left {
+		text-align: end;
+
+		.hero-heading {
+			font-size: 80px;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+		}
+
+		.hero-description {
+			font-size: 25px;
+		}
+
+		.tech-stack {
+			margin-top: 30px;
+		}
+	}
+
+	.right img {
+		border: 1px solid black;
+		border-radius: 10px;
+		/* text-align: center; */
+		width: 300px;
+		margin-inline: auto;
+	}
+}
