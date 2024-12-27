@@ -1,5 +1,87 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Set the max width of each section */
+.wrapper {
+	max-width: 1536px;
+
+	margin-inline: auto; /* Center the container */
+	padding: 20px 30px;
+}
+
+/* Set the element to take 100vh height */
+.full-height {
+	min-height: 100dvh;
+}
+
+/* Shadow styles */
+.shadow {
+	width: 100px;
+	margin: 0 auto;
+	height: 100px;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 40px;
+
+	&.top {
+		box-shadow: 0px -15px 10px -15px #111;
+	}
+	&.bottom {
+		box-shadow: 0px 15px 10px -15px #111;
+	}
+	&.left {
+		box-shadow: -15px 0px 10px -15px #111;
+	}
+	&.right {
+		box-shadow: 15px 0px 10px -15px #111;
+	}
+}
+
+/* Header styles */
+header.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid gray;
+	margin-top: 20px;
+	border-radius: 20px;
+
+	/* Make the header follow vertical scroll */
+	position: sticky;
+	top: 0;
+	width: 100%;
+	margin-inline: auto;
+
+	.logo {
+		text-transform: uppercase;
+		font-style: italic;
+	}
+
+	nav ul {
+		display: flex;
+		gap: 30px;
+	}
+
+	/* Remove list style */
+	li {
+		margin: 0;
+		list-style: none;
+
+		font-size: 25px;
+
+		/* Remove anchor tag style */
+		a {
+			text-decoration: none;
+			color: black;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+	}
 }
