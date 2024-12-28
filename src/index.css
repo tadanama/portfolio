@@ -123,18 +123,21 @@ section#hero {
 section#about {
 	padding: 30px 40px;
 	text-align: center;
+	border-radius: 10px;
 
 	h2 {
 		font-size: 50px;
 	}
 
 	.about-description {
+		text-align: justify;
 		font-size: 30px;
 		margin-top: 90px;
-		max-width: 50ch;
+		max-width: 90ch;
 		border: 1px solid red;
 		margin-inline: auto;
 		padding: 20px 30px;
 		border-radius: 20px;
+		line-height: 1.5;
 	}
 }
