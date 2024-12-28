@@ -19,7 +19,12 @@
 
 /* Shadow styles */
 .shadow {
-	box-shadow: -5px 5px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: -5px 5px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Add top margin for every section */
+section.wrapper {
+	margin-top: 40px;
 }
 
 /* Header styles */
@@ -27,7 +32,7 @@ header.wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  background-color: #f5f5f5;
+	backdrop-filter: blur(20px);
 	border: 1px solid gray;
 	margin-top: 20px;
 	border-radius: 20px;
@@ -69,7 +74,6 @@ header.wrapper {
 
 section#hero {
 	min-height: 80vh;
-	margin-top: 30px;
 	display: flex;
 	/* flex-direction: column; */
 	justify-content: center;
