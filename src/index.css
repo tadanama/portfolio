@@ -210,6 +210,8 @@ section#projects {
 
 section#contact {
 	background-color: #f5f5f5;
+	border: 1px solid gray;
+	border-radius: 10px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -242,12 +244,32 @@ section#contact {
 			color: inherit;
 		}
 
-		button.button{
+		button.button {
 			margin-top: 20px;
-			background-color: #008CBA;
+			background-color: #008cba;
 			color: white;
 			border: none;
 			font-size: 18px;
 		}
 	}
+}
+
+footer {
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 40px;
+	min-height: 100px;
+	background-color: #222831;
+	color: white;
+	font-size: 20px;
+
+	a{
+		color: inherit;
+	}
+}
+
+.icon{
+	font-size: 50px;
+	margin-left: 30px;
 }
