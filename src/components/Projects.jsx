@@ -37,6 +37,7 @@ function Projects() {
 								Github
 							</a>
 						</button>
+						<label className="warning">Please wait for the demo to load</label>
 					</div>
 				</div>
 				<div className="card">
