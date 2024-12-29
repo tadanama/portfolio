@@ -2,7 +2,7 @@ import React from "react";
 
 function Navlink() {
 	return (
-		<header className="wrapper shadow bottom">
+		<header className="wrapper shadow">
 			<div className="logo">
 				<h1>Syakir</h1>
 			</div>
