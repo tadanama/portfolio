@@ -84,9 +84,6 @@ function Projects() {
 					</ul>
 					<div className="github-buttons">
 						<button className="button">
-							<a href="">Demo</a>
-						</button>
-						<button className="button">
 							<a href="">Github</a>
 						</button>
 					</div>
