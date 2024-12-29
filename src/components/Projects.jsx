@@ -22,10 +22,20 @@ function Projects() {
 					</ul>
 					<div className="github-buttons">
 						<button className="button">
-							<a href="">Demo</a>
+							<a
+								href="https://tadanama.github.io/react-notes-mongodb/"
+								target="_blank"
+							>
+								Demo
+							</a>
 						</button>
 						<button className="button">
-							<a href="">Github</a>
+							<a
+								href="https://github.com/tadanama/react-notes-mongodb"
+								target="_blank"
+							>
+								Github
+							</a>
 						</button>
 					</div>
 				</div>
@@ -42,10 +52,20 @@ function Projects() {
 					</ul>
 					<div className="github-buttons">
 						<button className="button">
-							<a href="">Demo</a>
+							<a
+								href="https://tadanama.github.io/react-meme-generator/"
+								target="_blank"
+							>
+								Demo
+							</a>
 						</button>
 						<button className="button">
-							<a href="">Github</a>
+							<a
+								href="https://github.com/tadanama/react-meme-generator"
+								target="_blank"
+							>
+								Github
+							</a>
 						</button>
 					</div>
 				</div>
@@ -62,10 +82,20 @@ function Projects() {
 					</ul>
 					<div className="github-buttons">
 						<button className="button">
-							<a href="">Demo</a>
+							<a
+								href="https://tadanama.github.io/react-groceries-list/"
+								target="_blank"
+							>
+								Demo
+							</a>
 						</button>
 						<button className="button">
-							<a href="">Github</a>
+							<a
+								href="https://github.com/tadanama/react-groceries-list"
+								target="_blank"
+							>
+								Github
+							</a>
 						</button>
 					</div>
 				</div>
@@ -84,7 +114,12 @@ function Projects() {
 					</ul>
 					<div className="github-buttons">
 						<button className="button">
-							<a href="">Github</a>
+							<a
+								href="https://github.com/tadanama/jsonwebtoken-authentication"
+								target="_blank"
+							>
+								Github
+							</a>
 						</button>
 					</div>
 				</div>
